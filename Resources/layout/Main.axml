@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text=""
+        android:id="@+id/redBar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/holo_red_dark" />
+<!--button layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <!--Buttons in horizontal-->
+        <Button
+            android:id="@+id/button1"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tax me!" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset" />
+    </LinearLayout>
+<!--end buttons-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txtview1"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tax(@23.5%)"
+                android:textSize="15dp" />
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoText="true"
+                android:text=""
+                android:textSize="15dp" />
+        </LinearLayout>
+    <!--second line-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txtView2"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/txtviewOutput"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
