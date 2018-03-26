@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marksapp", "Marksapp.csproj", "{05F6F12C-97FA-4EE4-8EB7-07C8ADE21BD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator", "TaxCalculator.csproj", "{05F6F12C-97FA-4EE4-8EB7-07C8ADE21BD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

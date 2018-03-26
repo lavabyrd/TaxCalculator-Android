@@ -2,7 +2,7 @@
 using Android.Widget;
 using Android.OS;
 
-namespace Marksapp
+namespace TaxCalculator
 {
     [Activity(Label = "My Tax Calculator", MainLauncher = true, Icon = "@mipmap/icon")]
     public class MainActivity : Activity

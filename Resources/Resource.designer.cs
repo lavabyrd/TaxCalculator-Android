@@ -11,7 +11,7 @@
 
 [assembly: global::Android.Runtime.ResourceDesignerAttribute("Marksapp.Resource", IsApplication=true)]
 
-namespace Marksapp
+namespace TaxCalculator
 {
 	
 	
